@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--忽略页面中的邮箱格式为邮箱-->
+    <meta name="format-detection" content="email=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <title>小鬼当家活动模版</title>
+    <link rel="stylesheet" href="./css/modular.css">
+    <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+</head>
+<body>
+<div class="mobils_warp">
+    <!--背景色-->
+    <div class="myswiper-container alitghost_page">
+        <audio style="display:none; height: 0" id="bg-music" preload="auto" src="./music/小鬼当家.mp3" loop="loop"></audio>
+        <div class="playBtn play">
+            <img src="./images/Path1.png" alt="">
+        </div>
+        <!--7、我的活动（进入活动列表的入口）位置，字体颜色的变化  加 activity_btnblack  字体为黑色-->
+        <div class="activity_btnblack">
+            <img src="./images/activ_btn.png" alt="" class="btnimg">
+            <a href="#" class="btn">我的活动</a>
+        </div>
+        <div class="swiper-wrapper">
+            <!--第一屏  首页-->
+            <!--1、背景图-->
+            <div class="swiper-slide alitghost_home" style="background-image: url('./images/alitghost/back1.png')">
+                <!--顶部的五彩起-->
+                <img src="./images/alitghost/render1.png" alt="" class="render ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+                <!--你家中有闲置不用的物品么 文本图片-->
+                <img src="./images/alitghost/title1.png" alt="" class="title_one ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+                <!--变废为宝 还能表现爱心 文本图片-->
+                <img src="./images/alitghost/tiele_text.png" alt="" class="tiele_text ani" swiper-animate-effect="rotateInUpRight" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                <!--主题图-->
+                <img src="./images/alitghost/theme1.png" alt="" class="theme_ghost ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1" swiper-animate-delay="2.2s">
+                <!--底部文字样式-->
+                <img src="./images/alitghost/title_textf.png" alt="" class="title_textf ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1" swiper-animate-delay="2.5s">
+                <div class="arrow_b"></div>
+            </div>
+            <!--第二屏-->
+            <div class="swiper-slide alitghost_invi swiper-lazy" data-background="./images/alitghost/back2.png">
+                <!--幼儿园logo-->
+                <img data-src="./images/video_home.png" alt="" class="logo_render swiper-lazy">
+                <!--幼儿园名称-->
+                <div  id="kinder_name" class="invi_title ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <p>********************幼儿园</p>
+                </div>
+                <!--邀您参加免费亲子体验活动-->
+                <div class="invi_txt ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+                    <p>邀您参加免费亲子体验活动</p>
+                </div>
+                <!--主题的标题位置-->
+                <div class="theme_title">
+                    <img data-src="./images/alitghost/title2.png" alt="" class="swiper-lazy title_left ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.1s">
+                    <img data-src="./images/alitghost/title_text2.png" alt="" class="swiper-lazy title_right ani" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="1.4s">
+                </div>
+                <!--主题图-->
+                <img data-src="./images/alitghost/theme2.png" alt="" class="swiper-lazy theme_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.8s">
+            </div>
+            <!--第三屏   活动介绍-->
+            <!--1、背景图-->
+            <div class="swiper-slide alitghost_intr swiper-lazy" data-background="./images/alitghost/back3.png">
+                <!--幼儿园名称-->
+                <div  class="intr_text" style="background-image: url('./images/alitghost/redback.png')">
+                    <!--描述文本-->
+                    <img data-src="./images/alitghost/lovelist.png" alt="" class="swiper-lazy lovelist_img ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <p class="ani" swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                        爱心是一泓清泉，荡涤着世间的尘埃! 爱心是一缕阳光，扫除了心底的阴霾! 爱心是一股暖流，温暖了人们的心怀!
+                    </p>
+                    <p class="p_back ani" style="background-image: url('./images/alitghost/love1.png')" swiper-animate-effect="slideInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.3s">
+                        这一次的活动，我们将以爱心义卖的方式将获得的款项集合起来，在我们家长代表的监督下利用这些款项购买孩子们需要的生活学习用品，捐献给**机构的孩子们。
+                    </p>
+                    <p class="p_back ani" style="background-image: url('./images/alitghost/love1.png')"  swiper-animate-effect="slideInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                        这今天每个小朋友都是买家也都是卖家，在这种买卖的过程中获得了角色的体验，同时也用实际的行动感受了付出爱的快乐。
+                    </p>
+                </div>
+                <!--footer-->
+                <img data-src="./images/alitghost/footer3.png" alt="" class="swiper-lazy footer_ghost ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1" swiper-animate-delay="1.8s">
+            </div>
+            <!--第四屏  活动信息-->
+            <!--1、背景图-->
+            <div class="swiper-slide alitghost_mess swiper-lazy" data-background="./images/alitghost/back4.png">
+                <!--2、标题位置点（内容：活动信息）  默认的字体颜色为白色，加class="mess_titleblack"，字体为黑色-->
+                <h3 class="mess_title">活动信息</h3>
+                <ul class="mess_list">
+                    <li>
+                        <div class="clearfix list ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.1s">
+                            <img data-src="./images/icon/time.png" alt="" class="swiper-lazy timeimg fl">
+                            <h4 class="mess_time fl">时间</h4>
+                        </div>
+                        <div class="time_num clearfix ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                            <span id="year_num">2018-01-23 周二 上午 01:30:00</span>&nbsp;<span class="time_p" style="display:none">01:30</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix list ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s">
+                            <img data-src="./images/icon/add.png" alt="" class="swiper-lazy mess_address fl">
+                            <h4 class="mess_time fl">地点</h4>
+                        </div>
+                        <div class="time_num address ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s">
+                            <span id="address">北京市 市辖区 海淀区</span>
+                            <span id="add_1">18号互联网教育创新中心B座</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="clearfix list ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s">
+                            <img data-src="./images/icon/tell.png" alt="" class="swiper-lazy timeimg fl">
+                            <h4 class="mess_time fl">咨询电话</h4>
+                        </div>
+                        <p  id="tell_num" class="time_num ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.6s">010 - 12345678</p>
+                    </li>
+                </ul>
+                <!--3、导语的位置点（class="mess_bot"）  默认的字体颜色为白色，加class="mess_botblack"，字体为黑色-->
+                <div class="mess_bot ani" style="background-image: url('./images/alitghost/rectangle.png');" swiper-animate-effect="slideInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s">
+                    如果宝宝的年龄在2—3岁，<br>
+                    那赶紧报名吧！<br>
+                    只限20组家庭，手慢无！<br>
+                    报名后，老师会跟你联系哦！
+                </div>
+                <!--第四屏主题图-->
+                <img data-src="./images/alitghost/children4.png" alt="" class="swiper-lazy theme_rice ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1" swiper-animate-delay="0.4s">
+            </div>
+            <!--第五屏 用户信息-->
+            <!--1、背景图-->
+            <div class="swiper-slide alitghost_user swiper-lazy" data-background="./images/alitghost/back5.png">
+                <!--2、标题位置点（内容： 填写信息） 默认的字体颜色为白色，加class="mess_titleblack"，字体为黑色-->
+                <h3 class="mess_title">填写信息</h3>
+                <ul class="mess_list">
+                    <li class="baby_name clearfix ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                        <label class="fl baby_la">宝宝姓名：</label><input type="text" class="baby_input fl" placeholder="请输入宝宝名称">
+                    </li>
+                    <li class="baby_name clearfix ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.3s" id="messDate">
+                        <label class="fl baby_la">出生日期：</label><input type="tel" placeholder="请输入出生日期"  readonly="readonly"  class="baby_input fl" id="date1">
+                    </li>
+                    <li class="baby_name clearfix ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.4s">
+                        <label class="fl baby_la">联系电话：</label>
+                        <input type="tel" class="baby_input fl"  placeholder="请输入联系电话"  id="j_phone">
+                        <a href="javascript:void (0)" class="obtain_code" id="j_getVerifyCode">获取验证码</a>
+                    </li>
+                    <li class="baby_name clearfix ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s">
+                        <label class="fl baby_la">验证码：</label><input type="tel" placeholder="请输入手机验证码" class="baby_input fl">
+                    </li>
+                    <p class="cord_error">短信验证码输入错误</p>
+                    <a href="#" class="sub_btn ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.7s">提交</a>
+                </ul>
+                <div class="arrow_t"></div>
+            </div>
+
+            <!--第6屏   成功页-->
+            <!--1、背景图-->
+            <div class="swiper-slide alitghost_success swiper-lazy" data-background="./images/alitghost/back6.png">
+                <!--成功文本-->
+                <img data-src="./images/alitghost/suc_img.png" alt="" class="swiper-lazy suc_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+                <!--提示文本-->
+                <div  class="suc_text ani" style="background-image: url('./images/alitghost/back_suc.png');" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                    请保持电话畅通，老师会跟你联系哦！
+                </div>
+                <!--6屏的主题-->
+                <img data-src="./images/alitghost/theme6.png" alt="" class="swiper-lazy loosuc_img ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.4s">
+                <!--footer-->
+                <img data-src="./images/alitghost/footer6.png" alt="" class="swiper-lazy footer_six ani" swiper-animate-effect="slideInUp" swiper-animate-duration="1" swiper-animate-delay="1.8s">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/swiper-3.4.2.min.js"></script>
+<script src="./js/jquery.lazyload.js"></script>
+<script src="./js/swiper.animate1.0.2.min.js"></script>
+<script src="./js/swiperlazy.js"></script>
+<script src="./js/jweixin-1.0.0.js"></script>
+<script src="./js/jquery.date.js"></script>
+<script>
+    $(function () {
+        $.date('#date1');
+    })
+</script>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        function audioAutoPlay() {
+            $(".playBtn").addClass("pause").removeClass("play");
+            var audio = document.getElementById('bg-music');
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                $(".playBtn").addClass("pause").removeClass("play");
+                audio.play();
+            }, false);
+        }
+        audioAutoPlay();
+        var patnimg1 = "./images/Path3.png";
+        var patnimg2 = "./images/Path1.png";
+        $(".playBtn").click(function() {
+            if($(this).hasClass("play")) {
+                $(this).addClass("pause").removeClass("play");
+                $(".playBtn img").attr("src",patnimg2);
+                document.getElementById('bg-music').play();
+            }
+            else {
+                $(this).addClass("play").removeClass("pause");
+                $(".playBtn img").attr("src",patnimg1);
+                document.getElementById('bg-music').pause();
+            }
+        })
+    });
+</script>
+</html>
